@@ -83,3 +83,32 @@ Criar a classe `Pedido` com:
 - Calcular e exibir:
   - **Total do pedido**
   - **Detalhes dos livros**
+
+
+# Estrutura do Projeto - Sistema de Livraria
+
+## Estrutura de Diretórios
+
+```plaintext
+📦 desafio_livraria
+ ┣ 📂src
+ ┃ ┣ 📂interfaces
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜livro_interface.py
+ ┃ ┃ ┗ 📜livraria_interface.py
+ ┃ ┣ 📂models
+ ┃ ┃ ┣ 📂livros
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┣ 📜livro.py
+ ┃ ┃ ┃ ┣ 📜ebook.py
+ ┃ ┃ ┃ ┗ 📜livro_fisico.py
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜cliente.py
+ ┃ ┃ ┗ 📜pedido.py
+ ┃ ┣ 📂services
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┗ 📜livraria.py
+ ┃ ┣ 📜__init__.py
+ ┃ ┗ 📜main.py
+ ┣ 📜.gitignore
+ ┗ 📜README.md
